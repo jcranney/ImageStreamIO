@@ -25,7 +25,7 @@ message(" VERSION = ${PROJECT_VERSION}")
 
 add_compile_options(-Ofast)
 
-add_library(${LIBNAME} SHARED ${SRCNAME}.c)
+add_library(${LIBNAME}${SRCNAME}.c)
 
 # set -C99 flag for 'for' loop initial declartaions
 set_property(TARGET ${LIBNAME} PROPERTY C_STANDARD 99)
