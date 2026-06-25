@@ -36,7 +36,7 @@
 #include <semaphore.h>
 #include <unistd.h> // for close
 
-#include "ImageStreamIO_config.h" // For IMAGESTRUCT_VERSION
+// #include "ImageStreamIO_config.h" // For IMAGESTRUCT_VERSION
 
 #ifdef USE_CFITSIO
 #include <fitsio.h>
